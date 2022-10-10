@@ -25,7 +25,7 @@ class Student {
         count++;
     }
     // copy constructor
-    Student(Student &s) {
+    Student(const Student &s) {
         name = s.name;
         age = s.age;
         roll = s.roll;
@@ -37,10 +37,10 @@ class Student {
         cout << "(Object Count : " << --count << ")" << endl;
     }
     void display() {
-        cout << "Name :\t" << name << endl;
-        cout << "Age :\t" << age << endl;
-        cout << "Roll :\t" << roll << endl;
-        cout << "Count :\t" << count << endl << endl;
+        cout << "Name\t: " << name << endl;
+        cout << "Age\t: " << age << endl;
+        cout << "Roll\t: " << roll << endl;
+        cout << "Count\t: " << count << endl << endl;
     }
 };
 
@@ -51,10 +51,10 @@ int main(void) {
     s.name = "Rabbit";
     s.age = 20;
     s.roll = 1;
-    Student s1("John", 20, 2); // parametric constructor called
-    Student s2(s1);            // copy constructor called
     s.display();
+    Student s1("John", 19, 2); // parametric constructor called
     s1.display();
+    Student s2(s1); // copy constructor called
     s2.display();
     return 0;
 }
