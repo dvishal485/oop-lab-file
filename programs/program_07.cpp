@@ -3,6 +3,7 @@
 using namespace std;
 
 class Person {
+  protected:
     string name;
     int age;
 
@@ -15,6 +16,7 @@ class Person {
 };
 
 class Literate : public Person {
+  protected:
     bool employmentStatus;
 
   public:
@@ -27,6 +29,7 @@ class Literate : public Person {
 };
 
 class Student : public Literate {
+  protected:
     int roll;
 
   public:
@@ -39,6 +42,7 @@ class Student : public Literate {
 };
 
 class Staff : public Literate {
+  protected:
     int staffId;
 
   public:
