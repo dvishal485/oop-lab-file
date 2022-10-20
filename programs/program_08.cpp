@@ -28,9 +28,22 @@ class Literate : public Person { // single inheritance
     }
 };
 
+class Student : public Literate { // multilevel inheritance
+  protected:
+    int roll;
+
+  public:
+    Student(string name, int age, bool is_employed, int roll)
+        : Literate(name, age, is_employed), roll(roll) {}
+    void display() {
+        Literate::display();
+        cout << "Roll Number\t: " << roll << endl;
+    }
+};
+
 int main(void) {
-    Literate s1("John", 20, true);
-    Person s2("Jack", 22);
+    Student s1("John", 20, false, 527);
+    Student s2("Sam", 21, true, 523);
 
     s1.display();
     cout << endl;

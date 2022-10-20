@@ -18,6 +18,10 @@ Delhi Technological University Lab Programs for OOP (Second Year) for the course
 
 1. [Write a program to implement friend function.](./programs/program_06.cpp)
 
-1. [Write a program to implement single-level, multilevel and hierarchical inheritance.](./programs/program_07.cpp)
+1. [Write a program to implement single-level inheritance.](./programs/program_07.cpp)
+
+1. [Write a program to implement multilevel inheritance.](./programs/program_08.cpp)
+
+1. [Write a program to implement hierarchical inheritance.](./programs/program_09.cpp)
 
 ---
