@@ -24,11 +24,11 @@ Delhi Technological University Lab Programs for OOP (Second Year) for the course
 
 1. [Write a program to implement hierarchical inheritance.](./programs/program_09.cpp)
 
-1. [Write a program to implement funtional overloading.](./programs/program_10.cpp)
+1. [Write a program to implement functional overloading.](./programs/program_10.cpp)
 
 1. [Write a program to implement operator overloading.](./programs/program_11.cpp)
 
-1. [Write a program to implement funtional overriding.](./programs/program_12.cpp)
+1. [Write a program to implement functional overriding.](./programs/program_12.cpp)
 
 1. [Write a program to implement exception handling.](./programs/program_13.cpp)
 
